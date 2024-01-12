@@ -1,0 +1,9 @@
+
+<form>
+    <label for="id">ID:</label>
+    <input type="text" #txtuserid id="id" name="id"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" #txtpassword id="password" name="password"><br><br>
+    <button (click)="login(txtuserid.value,txtpassword.value)">Login</button>
+  </form>
+  

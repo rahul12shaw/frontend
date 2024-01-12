@@ -1,0 +1,45 @@
+.main-container {
+  width: 960px;
+  margin: 10px auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+/* app.component.css */
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-image: linear-gradient(to right, #4CAF50, #2196F3);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-image: linear-gradient(to right, #43A047, #1E88E5);
+}
+
