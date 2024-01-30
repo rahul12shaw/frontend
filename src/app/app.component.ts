@@ -8,6 +8,7 @@ import { AboutComponent } from './components/about/about.component';
 import { AuthServService } from './services/auth-serv.service';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { LoginComponent } from './components/login/login.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -21,7 +22,8 @@ import { LoginComponent } from './components/login/login.component';
     AboutComponent,
     RouterModule,
     RegistrationComponent,
-    LoginComponent
+    LoginComponent,
+    FooterComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
